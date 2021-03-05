@@ -1,4 +1,4 @@
-module github.com/rtctunnel/rtctunnel
+module github.com/wangpy/rtctunnel
 
 require (
 	github.com/gorilla/websocket v1.4.1
