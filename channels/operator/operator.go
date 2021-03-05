@@ -106,10 +106,6 @@ func (c *operatorChannel) Send(key, data string) error {
 
 func (c *operatorChannel) do(req *http.Request) (*http.Response, error) {
 
-	if runtime.GOOS == "js" {
-		req.Header.Set("js.fetch:mode", "cors")
-	}
-
 	for {
 		res, err := DefaultClient.Do(req)
 		if err != nil && strings.Contains(c.url, "https://") && strings.Contains(err.Error(), "server gave HTTP response") {
