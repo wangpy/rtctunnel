@@ -13,7 +13,7 @@ type config struct {
 }
 
 var defaultOptions = []Option{
-	WithChannel(channels.Must(channels.Get("operator://rtctunnel-operator.herokuapp.com"))),
+	WithChannel(channels.Must(channels.Get("apprtc://dev-brian3.cloudmosa.com"))),
 }
 
 func getConfig(options ...Option) (*config, error) {
