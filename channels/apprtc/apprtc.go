@@ -68,9 +68,9 @@ func (c *apprtcChannel) Send(key, data string) error {
 }
 
 func (c *apprtcChannel) getConnection(roomID, clientID string) (*websocket.Conn, error) {
-	url := "wss://apprtc-ws.webrtc.org/ws"
+	url := "wss://dev-brian3.cloudmosa.com:8089/ws"
 	conn, resp, err := websocket.DefaultDialer.Dial(url, http.Header{
-		"Origin": {"https://appr.tc"},
+		"Origin": {"https://dev-brian3.cloudmosa.com"},
 	})
 	if err != nil {
 		var msg string
