@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/rs/zerolog/log"
-	"github.com/rtctunnel/rtctunnel/crypt"
+	"github.com/wangpy/rtctunnel/crypt"
 	"github.com/spf13/cobra"
 )
 

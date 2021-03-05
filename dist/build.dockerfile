@@ -2,8 +2,8 @@ FROM golang:1.12-alpine as builder
 RUN apk --no-cache add git
 
 ENV GO111MODULE=on
-RUN mkdir -p /go/src/github.com/rtctunnel/rtctunnel
-WORKDIR /go/src/github.com/rtctunnel/rtctunnel
+RUN mkdir -p /go/src/github.com/wangpy/rtctunnel
+WORKDIR /go/src/github.com/wangpy/rtctunnel
 
 COPY go.mod .
 COPY go.sum . 

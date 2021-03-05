@@ -11,7 +11,7 @@ An overview of the application and how and why it was built is available here: [
 RTCTunnel can be installed via `go get`:
 
 ```bash
-go get github.com/rtctunnel/rtctunnel/cmd/rtctunnel
+go get github.com/wangpy/rtctunnel/cmd/rtctunnel
 ```
 
 Or downloaded from the releases page (for linux).
@@ -54,7 +54,7 @@ rtctunnel run
 
 Typically it would be run in the background.
 
-A docker-compose example is available in [examples/redis](https://github.com/rtctunnel/rtctunnel/tree/master/examples/redis).
+A docker-compose example is available in [examples/redis](https://github.com/wangpy/rtctunnel/tree/master/examples/redis).
 
 ## Configuration 
 

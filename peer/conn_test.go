@@ -5,9 +5,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/rtctunnel/rtctunnel/channels"
-	"github.com/rtctunnel/rtctunnel/crypt"
-	"github.com/rtctunnel/rtctunnel/signal"
+	"github.com/wangpy/rtctunnel/channels"
+	"github.com/wangpy/rtctunnel/crypt"
+	"github.com/wangpy/rtctunnel/signal"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/sync/errgroup"
 )

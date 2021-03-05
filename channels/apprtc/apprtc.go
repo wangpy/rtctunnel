@@ -6,7 +6,7 @@ import (
 	"net/http"
 
 	"github.com/gorilla/websocket"
-	"github.com/rtctunnel/rtctunnel/channels"
+	"github.com/wangpy/rtctunnel/channels"
 )
 
 func init() {

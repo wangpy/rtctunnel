@@ -4,8 +4,8 @@ RUN apk --no-cache add git gcc musl-dev
 ENV GO111MODULE=on
 ENV CGO_ENABLED=0
 
-RUN mkdir -p /go/src/github.com/rtctunnel/rtctunnel
-WORKDIR /go/src/github.com/rtctunnel/rtctunnel
+RUN mkdir -p /go/src/github.com/wangpy/rtctunnel
+WORKDIR /go/src/github.com/wangpy/rtctunnel
 
 COPY go.mod .
 COPY go.sum .
